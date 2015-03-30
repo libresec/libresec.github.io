@@ -1,5 +1,5 @@
 # Site settings
-title: libresec blog
+title: libresec [blog]
 #email: your-email@domain.com
 description: Random security stuff and references.
 baseurl: "" # the subpath of your site, e.g. /blog/
