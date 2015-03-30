@@ -1,9 +1,9 @@
 # Site settings
 title: Libresec Blog
 #email: your-email@domain.com
-description: > Random security stuff, and references.
+description: Random security stuff and references.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://libresec.github.io" # the base hostname & protocol for your site
 twitter_username: libresec
 github_username:  libresec
 
