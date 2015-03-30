@@ -1,11 +1,15 @@
 # Site settings
-title: Libresec Blog
+title: libresec blog
 #email: your-email@domain.com
 description: Random security stuff and references.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://libresec.github.io" # the base hostname & protocol for your site
 twitter_username: libresec
 github_username:  libresec
-
+paginate: 5
 # Build settings
 markdown: kramdown
+collections:
+    cheatsheets:
+        output: true
+        permalink: /cheatsheets/:path/

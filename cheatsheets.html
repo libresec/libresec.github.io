@@ -1,0 +1,18 @@
+---
+layout: page
+title: cheatsheets
+permalink: /cheatsheets/
+---
+
+<div class="home">
+
+{% for sheet in site.cheatsheets %}
+      <li>
+        <a href="{{ sheet.url }}">{{ sheet.title }}</a>
+        {{ sheet.excerpt }}
+      </li>
+{% endfor %}
+
+</div>
+
+
