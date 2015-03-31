@@ -21,6 +21,9 @@ A quick cheatcheet for common git commands
     5. Push to remote server: 
         git push -u origin master
 
+#### **reset to most recent commit
+    git reset --hard
+
 #### **set name/email**
 You can configure an individual repo to use a specific user / email address.
 
