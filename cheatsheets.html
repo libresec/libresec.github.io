@@ -4,12 +4,15 @@ title: cheatsheets
 permalink: /cheatsheets/
 ---
 
-<div class="home">
+<hr>
 
+<div>
+
+<br />
 {% for sheet in site.cheatsheets %}
       <li>
-        <a href="{{ sheet.url }}">{{ sheet.title }}</a>
-        {{ sheet.excerpt }}
+       <a href="{{ sheet.url }}">{{ sheet.title }}</a>
+        <span class="post-meta">[{{ sheet.date | date: "%b %-d, %Y" }}]</span>
       </li>
 {% endfor %}
 
